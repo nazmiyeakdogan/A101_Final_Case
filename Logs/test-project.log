@@ -1,0 +1,25 @@
+2022-11-02 14:34:51 INFO  Log:10 - ============== Start Test 1================
+2022-11-02 14:34:51 INFO  Log:10 - test1 Started
+2022-11-02 14:34:51 INFO  Log:10 - hepsiburada sitesine gidildi
+2022-11-02 14:34:56 INFO  Log:10 - cookie kabul edildi.
+2022-11-02 14:34:57 INFO  Log:10 - email adresi girildi
+2022-11-02 14:34:58 INFO  Log:10 - şifre girildi
+2022-11-02 14:34:58 INFO  Log:10 - kullanıcı girişi yapıldı
+2022-11-02 14:35:06 INFO  Log:10 - kullanıcı girişi doğrulandı
+2022-11-02 14:35:07 INFO  Log:10 - ürün aratıldı
+2022-11-02 14:35:18 INFO  Log:10 - ürün seçildi
+2022-11-02 14:35:44 INFO  Log:10 - ürün sepete eklendi
+2022-11-02 14:35:48 INFO  Log:10 - farklı satıcıdan ürün sepete eklendi 
+2022-11-02 14:35:53 INFO  Log:10 - sepete gidildi
+2022-11-02 14:35:53 INFO  Log:10 - doğru ürün eklendiği kontrol edildi
+2022-11-02 14:35:53 INFO  Log:10 - test1 Passed
+2022-11-02 14:35:53 INFO  Log:10 - test2 Started
+2022-11-02 14:35:59 INFO  Log:10 - hepsiburada sitesine gidildi
+2022-11-02 14:36:01 INFO  Log:10 - ürün aratıldı
+2022-11-02 14:36:08 INFO  Log:10 - ürün seçildi
+2022-11-02 14:36:14 INFO  Log:10 - ürün sepete eklendi
+2022-11-02 14:36:18 INFO  Log:10 - farklı satıcıdan ürün sepete eklendi 
+2022-11-02 14:36:22 INFO  Log:10 - sepete gidildi
+2022-11-02 14:36:23 INFO  Log:10 - doğru ürün eklendiği kontrol edildi
+2022-11-02 14:36:23 INFO  Log:10 - test2 Passed
+2022-11-02 14:36:29 INFO  Log:10 - ============== Finish Test 1================

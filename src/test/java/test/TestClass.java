@@ -14,7 +14,6 @@ public class TestClass extends GWD {
     WebElements element = new WebElements();
     Metods m = new Metods();
 
-
     @Test(priority = 1)
     public void test1(){
         Log.info("hepsiburada sitesine gidildi");
@@ -55,10 +54,10 @@ public class TestClass extends GWD {
     public void test2(){
         driver.get("https://www.hepsiburada.com/");
         Log.info("hepsiburada sitesine gidildi");
-        element.send("searchBox","termos");
+        element.send("searchBox","puzzle");
         element.click("ara");
         Log.info("ürün aratıldı");
-        element.click("termos");
+        element.click("puzzle");
         Log.info("ürün seçildi");
 
         Set<String> window= driver.getWindowHandles();
@@ -72,7 +71,7 @@ public class TestClass extends GWD {
         Log.info("farklı satıcıdan ürün sepete eklendi ");
         element.click("basket");
         Log.info("sepete gidildi");
-        Assert.assertTrue(element.checked2.getText().contains("Stanley Klasik Trigger Action Seyahat Bardağı"));
+        Assert.assertTrue(element.checked2.getText().contains("Art Puzzle Dağlarda Günbatımı 1000 Parça Puzzle"));
         Log.info("doğru ürün eklendiği kontrol edildi");
     }
 }

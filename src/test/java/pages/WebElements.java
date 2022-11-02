@@ -61,10 +61,10 @@ public class WebElements extends Metods {
     @FindBy(xpath = "(//a[text()='LRsmile Tavşan Detaylı Çanta Seti (Yurt Dışından)'])[1]")
     public WebElement checked1;
 
-    @FindBy(xpath = "(//h3[text()='Stanley Klasik Trigger Action Seyahat Bardağı 0.47 LT'])[1]")
-    private WebElement termos;
+    @FindBy(xpath = "//*[text()='Art Puzzle Dağlarda Günbatımı 1000 Parça Puzzle']")
+    private WebElement puzzle;
 
-    @FindBy(xpath = "(//a[text()='Stanley Klasik Trigger Action Seyahat Bardağı 0.47 LT'])[1]")
+    @FindBy(xpath = "(//a[text()='Art Puzzle Dağlarda Günbatımı 1000 Parça Puzzle'])[1]")
     public  WebElement checked2;
 
 
@@ -92,7 +92,7 @@ public class WebElements extends Metods {
             case "addToCart2" : myElement = addToCart2; break;
             case "closeButton" : myElement = closeButton; break;
             case "basket" : myElement = basket; break;
-            case "termos" : myElement = termos; break;
+            case "puzzle" : myElement = puzzle; break;
         }
         clickFunction(myElement);
     }
